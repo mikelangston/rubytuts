@@ -6,10 +6,10 @@ class Output
   def puts(message)
     messages << message
   end
+end
 
-  def output
-    @output ||= Output.new
-  end
+def output
+  @output ||= Output.new
 end
 
 Given(/^I am not yet playing$/) do 
